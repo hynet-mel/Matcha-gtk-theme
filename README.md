@@ -1,10 +1,12 @@
 <img src="https://github.com/vinceliuice/matcha/blob/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Theme
 ======
 
-Matcha is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+Meltcha is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc. And suprisingly pastel pink themed!
 
-This theme is based on Arc gtk theme of horst3180. Thanks horst3180 sincerely for his great job!
+And this theme is on it's turn based on vinceliuice's Matcha theme, mostly customized for my #FAACAC needs! 
+vinceliuce - Matcha gtk theme: https://github.com/vinceliuice/Matcha-gtk-theme
 
+The original theme is based on Arc gtk theme of horst3180. Thanks horst3180 sincerely for his great job!
 horst3180 - Arc gtk theme: https://github.com/horst3180/Arc-theme
 
 ## Info
@@ -40,6 +42,7 @@ Search for the engines in your distributions repository or install the engines f
 
 Double-click to open that script file,
 Or open the terminal at current directory.
+Right now, since I don't plan to package this. This is the only way to do it!
 
 Run
 
@@ -56,49 +59,3 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 | -g, --gdm     | Install GDM theme, this option need root user authority! please run this with sudo |
 | -r, --revert  | revert GDM theme, this option need root user authority! please run this with sudo |
 | -h, --help    | Show this help |
-
-### Fix for flatpak apps
-
-    sudo flatpak override --filesystem=~/.themes
-
-If you installed your theme in system theme folder then run:
-
-    sudo flatpak override --filesystem=/usr/share/themes
-
-### Install from flathub
-
-    flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
-    flatpak install flathub org.gtk.Gtk3theme.Matcha-sea
-
-### Install from repository
-
-Archlinux:
-This package is available in the AUR
-
-    yay -S matcha-gtk-theme
-
-FreeBSD:
-
-    # pkg install matcha-gtk-themes
-
-Solus:
-
-    sudo eopkg it matcha-gtk-theme
-
-### Firefox theme
-[Install Firefox theme](src/extra/firefox)
-
-#### Preview
-![Firefox-theme](src/extra/firefox/preview.png?raw=true)
-
-## Icon theme for Matcha
-
-- Qogir-manjaro:  https://github.com/vinceliuice/Qogir-icon-theme
-
-## Screenshots
-
-![01](https://github.com/vinceliuice/matcha/blob/imgs/screenshot01.png?raw=true) 
-![02](https://github.com/vinceliuice/matcha/blob/imgs/screenshot02.png?raw=true) 
-![03](https://github.com/vinceliuice/matcha/blob/imgs/screenshot03.png?raw=true) 
-![04](https://github.com/vinceliuice/matcha/blob/imgs/screenshot04.png?raw=true) 
-![05](https://github.com/vinceliuice/matcha/blob/imgs/screenshot05.png?raw=true) 
