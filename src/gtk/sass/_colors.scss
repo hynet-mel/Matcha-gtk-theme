@@ -21,9 +21,9 @@ $fg_color: if($variant =='light', #273134, #ccd7d4);
 }
 
 $selected_fg_color: #ffffff;
-$selected_bg_color: #2eb398;
-@if $color=='aliz' { $selected_bg_color: #F0544C; }
-@if $color=='azul' { $selected_bg_color: #3498db; }
+$selected_bg_color: #7fe3cf;
+@if $color=='aliz' { $selected_bg_color: #faacac; }
+@if $color=='azul' { $selected_bg_color: #a56060; }
 $alt_selected_bg_color: lighten($selected_bg_color, 6%);
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: if($variant =='light', rgba(black, 0.15), rgba(black, 0.25));
@@ -41,26 +41,26 @@ $link_visited_color: if($variant == 'light', darken($text_color, 5%),
 $selection_mode_bg: if($trans == 'true', rgba($selected_bg_color, 0.95), $selected_bg_color);
 $selection_mode_fg: $selected_fg_color;
 $warning_color: #F27835;
-$error_color: #FC4138;
+$error_color: #d04343;
 $warning_fg_color: white;
 $error_fg_color: white;
-$success_color: #2eb398;
+$success_color: #7fe3cf;
 $destructive_color: #db5b5b;
-$suggested_color: #33b165;
+$suggested_color: #a56f6f;
 $destructive_fg_color: white;
 $suggested_fg_color: white;
-$progress_color: #db5b5b;
+$progress_color: #faacac;
 
 @if $color=='aliz' {
-    $progress_color: #2eb398;
+    $progress_color: #7fe3cf;
     $success_color: #3498db;
     $destructive_color: #db5b5b;
-    $suggested_color: #2eb398;
+    $suggested_color: #7fe3cf;
 }
 
 @if $color=='azul' {
     $progress_color: #4586D8;
-    $success_color: #2eb398;
+    $success_color: #7fe3cf;
     $destructive_color: #db5b5b;
     $suggested_color: #4586D8;
 }
@@ -130,9 +130,9 @@ $header_button_border: if($variant == 'dark', rgba(darken($header_bg, 12%), 0.42
 //WM Buttons
 
 // Close
-$wm_button_close_bg: if($variant == 'light', #f46067, #cc575d);
+$wm_button_close_bg: if($variant == 'light', #faacac, #faacac);
 $wm_button_close_hover_bg: if($variant == 'light', #f68086, #d7787d);
-$wm_button_close_active_bg: if($variant == 'light', #f13039, #be3841);
+$wm_button_close_active_bg: if($variant == 'light', #faacac, #faacac);
 
 $wm_icon_close_bg: $header_bg;
 

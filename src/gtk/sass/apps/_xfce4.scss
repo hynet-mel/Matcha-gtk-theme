@@ -98,16 +98,16 @@ window#XfcePanelWindow.background.panel.xfce4-panel {
 
   > widget {
     wnck-pager {
-      background-color: rgba(white, 0.1);
+      background-color: rgba(white, 0.02);
       border: none;
-      box-shadow: 0 0 0 1px rgba(white, 0.15);
+      box-shadow: 0 0 0 1px rgba(white, 0.05);
 
       &:hover {
         background-color: rgba(white, 0.25);
       }
 
       &:active, &:checked, &:selected {
-        background-color: rgba(white, 0.35);
+        background-color: rgba(#faacac, 0.15);
       }
     }
   }
