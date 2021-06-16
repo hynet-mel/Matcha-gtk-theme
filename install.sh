@@ -13,7 +13,7 @@ fi
 REO_DIR=$(cd $(dirname $0) && pwd)
 SRC_DIR=${REO_DIR}/src
 
-THEME_NAME=Matcha
+THEME_NAME=Meltcha
 COLOR_VARIANTS=('' '-light' '-dark')
 THEME_VARIANTS=('-aliz' '-azul' '-sea')
 
@@ -53,7 +53,7 @@ install() {
   echo "[Desktop Entry]"                                                           >> ${themedir}/index.theme
   echo "Type=X-GNOME-Metatheme"                                                    >> ${themedir}/index.theme
   echo "Name=${name}${color}${theme}"                                              >> ${themedir}/index.theme
-  echo "Comment=A dark modern design theme"                                        >> ${themedir}/index.theme
+  echo "Comment=Mel's customized GTK theme based on the Matcha"                    >> ${themedir}/index.theme
   echo "Encoding=UTF-8"                                                            >> ${themedir}/index.theme
   echo ""                                                                          >> ${themedir}/index.theme
   echo "[X-GNOME-Metatheme]"                                                       >> ${themedir}/index.theme
