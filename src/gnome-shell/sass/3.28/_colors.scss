@@ -49,7 +49,7 @@ $topbar_overview_color: rgba(#ffffff, 0.08);
 $topbar_active_color: rgba(#ffffff, 0.15);
 
 $selected_bg_color: #2eb398;
-@if $color=='aliz' { $selected_bg_color: #F0544C; }
+@if $color=='aliz' { $selected_bg_color: #faacac; }
 @if $color=='azul' { $selected_bg_color: #3498db; }
 $secondary_selected_bg_color: lighten($selected_bg_color, 5%);
 $accent_bg_color: lighten($selected_bg_color, 10%);

@@ -9,8 +9,8 @@ $fg_color: if($variant == 'light', #363636, #dddddd);
 $alt_fg_color: if($variant == 'light', #555555, #aaaaaa);
 
 $accent_color: #2eb398;
-@if $color=='aliz' { $accent_color: #F0544C; }
-@if $color=='aliz' { $accent_color: #F0544C; }
+@if $color=='aliz' { $accent_color: #faacac; }
+@if $color=='aliz' { $accent_color: #faacac; }
 @if $color=='azul' { $accent_color: #3498db; }
 
 $selected_fg_color: #fff;
